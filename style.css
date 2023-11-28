@@ -802,6 +802,11 @@ button:hover{
     /* margin-bottom: 500px; */
     
 }
+.five .intro{
+    display: flex;
+    justify-content: center;
+    gap:20px
+}
 .five .para{
     width:505px ;
     height: 370px;
@@ -840,6 +845,7 @@ button:hover{
     height: 370px;
     /* border: 1px solid rgb(225, 65, 132); */
     margin: 100px auto;
+    margin-right: 150px;
 }
 .five #fname{
     width: 460px;
@@ -937,14 +943,14 @@ button:hover{
     text-align: center;
   }
   .grid-item1{
-    background-image: url(/imeges/project-1.jpg);
+    background-image: url(project-1.jpg);
     background-size: cover;
     object-fit: cover;
     height: 270px;
    width: 275px;
   }
   .grid-item2{
-    background-image: url(/imeges/project-2.jpg);
+    background-image: url(project-2.jpg);
     background-size: cover;
     object-fit: cover;
     height: 270px;
@@ -958,7 +964,7 @@ button:hover{
    width: 275px;
   }
   .grid-item4{
-    background-image: url(/imeges/project-4.jpg);
+    background-image: url(project-4.jpg);
     background-size: cover;
     object-fit: cover;
     height: 270px;
@@ -969,14 +975,14 @@ button:hover{
     transform: scale(1.02);
   }
   .grid-item5{
-    background-image: url(/imeges/project-5.jpg);
+    background-image: url(project-5.jpg);
     background-size: cover;
     object-fit: cover;
     height: 270px;
    width: 275px;
   }
   .grid-item6{
-    background-image: url(/imeges/project-6.jpg);
+    background-image: url(project-6.jpg);
 
     background-size: cover;
     object-fit: cover;
@@ -984,14 +990,14 @@ button:hover{
    width: 275px;
   }
   .grid-item7{
-    background-image: url(/imeges/project-7.jpg);
+    background-image: url(project-7.jpg);
     background-size: cover;
     object-fit: cover;
     height: 270px;
    width: 275px;
   }
   .grid-item8{
-    background-image: url(/imeges/project-8.jpg);
+    background-image: url(project-8.jpg);
     background-size: cover;
     object-fit: cover;
     height: 270px;
@@ -1095,12 +1101,16 @@ img{
     /* flex-direction: row-reverse; */
     /* justify-content: space-between;
     padding: 200px; */
+    justify-content: center;
+    gap:25px;
   
 }
 .eight .intro .para{
     width: 485px;
     height: 400px;
     font-style: normal;
+    margin-left: 150px;
+
 }
 .eight .intro .img1{
     height: 348px;
@@ -1146,10 +1156,16 @@ img{
     background-color: #fbfbfb;
     height: 500px;
  }
+ .nine .intro{
+    display: flex;
+    justify-content: center;
+    gap:0px;
+    justify-content: space-between;
+ }
  .nine .para{
     width: 568px;
     height: 377px;
-    margin-left: 0px;
+    margin-left: 180px;
  }
  .nine p .p1{
 color: black;
